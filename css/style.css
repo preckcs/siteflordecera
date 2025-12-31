@@ -153,5 +153,47 @@ header{
     align-items: center;
     margin-top: 30px;
     border-radius: 30px;
+}
 
+/** what we provide ============*/
+
+.what-we-provide{
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.w-info-box{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.w-info-icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 1.4rem;
+    background-color: var(--main-light-color);
+}
+
+.w-info-icon{
+    color: var(--main-color);
+}
+
+.w-info-text strong{
+    color:#3b3b3b;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.w-info-text p{
+    color:#535353;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
 }
